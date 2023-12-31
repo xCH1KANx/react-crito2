@@ -1,0 +1,80 @@
+.team-container {
+    background-color: #F0D082;
+    text-align: -webkit-center;
+
+    .team-area {
+        padding-top: 100px;
+        max-width: 1560px;
+        text-align: left;
+
+        .team-features {
+            color: #F94D1C;
+            font-size: 18px;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .team-header {
+            font-size: 45px;
+            font-family: 'DM Sans', sans-serif;
+            font-weight: 700;  
+        }
+
+        .team-button {
+            margin-top: 25px;
+            place-content: center;
+            border-color: #191919;
+            border-radius: 60px;
+            background-color: transparent;
+            color: #191919;
+            padding: 20px 20px;
+            display: inline-flex;
+            font-size: 16px;
+            width: 240px;
+
+            margin-bottom: 100px;
+        }
+
+        .button-icon {
+            margin-left: 10px;
+        }
+
+        .team-header-item {
+            margin-top: 30px;
+            font-size: 22px;
+            font-family: 'DM Sans', sans-serif;
+            font-weight: 700;
+        }
+
+        .team-parahragh-item {
+            font-size: 16px;
+            font-family: 'Inter', sans-serif;
+            color: #5E5E5E; 
+        }
+
+        .team-image-item {
+            width: inherit;
+        }
+
+        .team-scroll {
+            margin-bottom: 100px;
+            max-width: 220px;
+            display: inline-flex;
+
+            span {
+                font-size: 20px;
+                color: #6f6f6f;
+                opacity: 50%;
+            }
+
+            .special {
+                color: #070707;
+                opacity: 100%;
+            }
+
+            .material-symbols-outlined {
+                font-variation-settings:
+                'FILL' 1,
+              }
+        }
+    }
+}

@@ -1,0 +1,56 @@
+.front-container {
+    background-color: #f0efe9;
+    padding-top: 120px;
+    text-align: -webkit-center;
+
+    .max-width {
+        max-width: 1560px !important;
+
+        .front-information {
+            text-align: left;
+
+            .front-header {
+                font-size: 96px;
+                font-weight: 700;
+                line-height: 90px;
+                font-family: 'DM Sans', sans-serif;
+
+                max-width: 850px;
+            }
+
+            .front-text {
+                font-size: 20px;
+                font-family: 'Inter', sans-serif;
+                color: #191919;
+
+                max-width: 770px;
+                margin-top: 20px;
+                margin-bottom: 45px;
+            }
+
+
+            .front-contact {
+                border-color: transparent;
+                border-radius: 30px;
+                background-color: #F9D783;
+                padding: 10px 20px;
+                display: inline-flex;
+                font-size: 16px;
+            }
+
+            .front-learn {
+                border-color: black;
+                border-radius: 30px;
+                background-color: transparent;
+                padding: 10px 20px;
+                display: inline-flex;
+                font-size: 16px;
+            }
+
+            .button-icon {
+                margin-left: 4px;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,106 @@
+.about-container {
+    text-align: -webkit-center;
+    margin-bottom: 100px;
+
+    .about-row {
+        max-width: 1560px;
+        text-align: left;
+
+        .about-image {
+            width: 533px;
+        }
+
+        .about-one {
+            text-align: center;
+
+            .about-image-container {
+
+                background-color: #BEEBFF;
+                text-align: left;
+                padding: 40px;
+                max-width: 450px;
+
+                position: absolute;
+                margin-top: -240px;
+                z-index: 999;
+
+                .image-header {
+                    font-size: 20px;
+                    font-family: 'DM Sans', sans-serif;
+                    font-weight: 700;
+                }
+
+                .image-text {
+                    color: #F94D1C;
+                    font-size: 16px;
+                    font-weight: 700;
+                }
+
+                .image-paragraph {
+                    font-family: 'Inter', sans-serif;
+                    font-size: 16px;
+                    color: #191919;
+                    width: 333px;
+                }
+            }
+        }
+
+        .about-feature {
+            font-size: 18px;
+            font-family: 'Inter', sans-serif;
+            color: #F94D1C;
+        }
+
+        .about-header {
+            font-size: 45px;
+            font-family: 'DM Sans', sans-serif;
+            font-weight: 700;
+
+            max-width: 532px;
+        }
+
+        .about-paragraph {
+            font-family: 'Inter', sans-serif;
+            font-size: 16px;
+            color: #5E5E5E;
+            line-height: 32px;
+
+            max-width: 488px;
+        }
+
+        .about-button {
+            margin-top: 25px;
+            place-content: center;
+            border-color: transparent;
+            border-radius: 60px;
+            background-color: #191919;
+            color: white;
+            padding: 10px 20px;
+            display: inline-flex;
+            font-size: 16px;
+        }
+
+        .about-outline-button {
+            border-radius: 999px;
+            border-width: 1px;
+            border-color: #070707;
+            background-color: transparent;
+            height: 47px;
+            width: 47px;
+
+            padding-top: 13px;
+        }
+
+        .transparent-icon {
+            margin-left: -11px;
+            margin-top: -18px;
+            position: absolute;
+        }
+
+        .button-icon {
+            margin-left: 10px;
+            font-size: 15px;
+            margin-top: 5px;
+        }
+    }
+}

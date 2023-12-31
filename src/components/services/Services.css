@@ -1,0 +1,85 @@
+.services-container {
+    background-color: #F0EFE9;
+    text-align: -webkit-center;
+
+    .services-row {
+        padding-top: 100px;
+        text-align: left;
+        max-width: 1560px;
+
+        .services-feature {
+            color: #F94D1C;
+            font-size: 18px;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .services-header {
+            font-size: 45px;
+            font-family: 'DM Sans', sans-serif;
+            font-weight: 700;
+
+            max-width: 504px;
+        }
+
+        .services-card {
+            background-color: #ffffff;
+            padding: 44px;
+            margin-top: 40px;
+
+            .services-line {
+                width: 35px;
+                height: 2px;
+                background-color: black;
+                margin-bottom: 30px;
+            }
+
+            .services-card-header {
+                font-size: 22px;
+                font-family: 'DM Sans', sans-serif;
+                font-weight: 700;
+            }
+
+            .services-card-paragraph {
+                font-size: 16px;
+                font-family: 'Inter', sans-serif;
+                color: #5E5E5E;
+                width: 278px;
+                line-height: 27px;
+            }
+
+            .services-button {
+                width: 56px;
+                height: 56px;
+                background-color: #070707;
+                color: white;
+                border-radius: 999px;
+                border-color: transparent;
+            }
+
+            .button-icon {
+                margin-top: 5px;
+            }
+        }
+
+        .special {
+            background-color: #F9D783;
+        }
+
+        .special-button {
+            background-color: white!important;
+            color: black!important;
+        }
+    }
+
+    .services-learn-button {
+        border-radius: 999px;
+        border-width: 1px;
+        border-color: #070707;
+        background-color: transparent;
+        width: 221px;
+
+        padding-top: 13px;
+        padding-bottom: 13px;
+        margin-bottom: 100px;
+    }
+}

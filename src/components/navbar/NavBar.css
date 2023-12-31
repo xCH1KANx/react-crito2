@@ -1,0 +1,61 @@
+.nav-container {
+    background-color: #f0efe9;
+    padding-top: 15px;
+
+    .nav-header {
+        width: 1560px;
+        margin-left: auto;
+        margin-right: auto;
+
+        .logo {
+            width: 139px;
+            height: 52px;
+            margin: 15px 38px 38px 38px;
+        }
+
+        .nav-info {
+            font-family: 'Inter', sans-serif;
+            font-size: 15px;
+            font-weight: 400px;
+            text-align: left;
+            line-height: 25px;
+            color: #191919;
+
+            margin-right: 15px;
+            display: inline-flex;
+        }
+
+        .symbols {
+            margin-right: 15px;
+        }
+
+        .icon {
+            margin-right: 13px;
+        }
+
+        .nav-link {
+            font-size: 16px;
+            letter-spacing: 0.1px;
+            font-weight: 500;
+            margin-right: 40px;
+            color: #191919;
+
+            &:active {
+                color: #070707;
+            }
+        }
+
+        .header-button {
+            border-color: transparent;
+            border-radius: 30px;
+            background-color: #F9D783;
+            padding: 10px 20px;
+            display: inline-flex;
+            font-size: 16px;
+        }
+
+        .button-icon {
+            margin-left: 4px;
+        }
+    }
+}
